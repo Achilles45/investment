@@ -34,12 +34,6 @@
                <div class="row">
                    <div class="col-md-8">
                         <form @submit.prevent="withdraw()">
-                            <div v-if="err" class="err message err animated slideInRight">
-                                {{ err }}
-                            </div>
-                            <div v-if="success" class="alert alert-success">
-                                {{ success }}
-                            </div>
                     <div class="form-group">
                         <input type="text" class="form-control" disabled  v-bind:value="id">
                     </div>
@@ -102,7 +96,12 @@
                             <input type="number" placeholder="Amount to withdraw" class="form-control" v-model="amount">
                         </div>
                         </div>
-                    </div><br />
+                    </div><div v-if="err" class="err message err animated slideInRight">
+                                {{ err }}
+                            </div>
+                            <div v-if="success" class="alert alert-success">
+                                {{ success }}
+                            </div>
                     <button type="submit" class="withraw_btn">Transfer Now</button>
                 </form>
                    </div>
