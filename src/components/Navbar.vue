@@ -10,8 +10,9 @@
             <li><a href="#features" class="link">Features</a></li>
             <li><a href="#pricing" class="link">Pricing</a></li>
             <li><a href="#footer" class="link">Contact</a></li>
-            <li><router-link to="/signup" class="link signup">Sign Up</router-link></li>
-            <li><router-link to="/signin" class="link signin">Sign In</router-link></li>
+            <li v-if="!user"><router-link to="/signup" class="link signup">Sign Up</router-link></li>
+            <li v-if="!user"><router-link to="/signin" class="link signin">Sign In</router-link></li>
+            <li v-if="user" @click="logOut()" class="logout">Logout</li>
         </ul>
          <div @click="showNav()" class="navbar__toggler">
                 <i class="fa fa-bars"></i>
@@ -21,11 +22,33 @@
 </template>
 
 <script>
+import firebase from 'firebase'
 export default {
+    data(){
+        return{
+            user:null
+        }
+    },
     mounted(){
         this.fixNav()
     },
+    created(){
+        let user = firebase.auth().currentUser
+        firebase.auth().onAuthStateChanged((user)=>{
+            if(user){
+                this.user = user
+            }else{
+                this.user = null
+            }
+        })
+    },
     methods:{
+         logOut:function(){
+           firebase.auth().signOut()
+           .then(()=>{
+               this.$router.push({name: 'Signin'})
+           })
+        },
         showNav:function(){
             const navbarToggler = document.querySelector('.navbar__toggler')
             const nav = document.querySelector('.nav__links');
@@ -76,6 +99,17 @@ export default {
         padding: .8rem 2rem;
         border-radius: 3px;
         border: 1px solid $primary-color;
+    }
+    .logout{
+        background: transparent;
+        // padding: .8rem 2rem;
+        opacity: .7;
+        margin: 0 1rem;
+        font-weight: bold;
+        border-radius: 3px;
+        // border: 1px solid $primary-color;
+        color: $primary-color;
+        cursor: pointer;
     }
     .navbar__toggler{
         display: none;
