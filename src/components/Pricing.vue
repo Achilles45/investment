@@ -15,7 +15,6 @@
                  <div class="body">
                     <h6><i class="fa fa-check-square"></i> &#8358;10,000 to &#8358;15,000</h6>
                     <h6><i class="fa fa-check-square"></i> &#8358;20,000 to &#8358;30,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;30,000 to &#8358;45,000</h6>
                     <h6 class="pb-2"><i class="fa fa-check-square"> </i> &#8358;30,000 to &#8358;45,000</h6>
                     <h6 class="pb-2"><i class="fa fa-check-square"> </i> &#8358;40,000 to &#8358;60,000</h6>
                     <h6 class="pb-2"><i class="fa fa-check-square"> </i> &#8358;50,000 to &#8358;75,000</h6>
@@ -51,12 +50,12 @@
                      <h4>PROMO PACKAGE</h4>
                  </div>
                  <div class="body">
-                      <h6><i class="fa fa-check-square"></i> 50,000 to 150,000</h6>
-                    <h6><i class="fa fa-check-square"></i> 100,000 to 300,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> 200,000 to 600,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> 300,000 to 900,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> 400,000 to 1,200,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> 500,000 to 1,500,000</h6>
+                      <h6><i class="fa fa-check-square"></i> &#8358;50,000 to &#8358;150,000</h6>
+                    <h6><i class="fa fa-check-square"></i> &#8358;100,000 to &#8358;300,000</h6>
+                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;200,000 to &#8358;600,000</h6>
+                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;300,000 to &#8358;900,000</h6>
+                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;400,000 to &#8358;1,200,000</h6>
+                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;500,000 to &#8358;1,500,000</h6>
                     <small>Kindly note your investment cycle starts counting only when we have confirmed your payment nd you can cash out in 24 hours. Terms and conditions apply</small><br>
                   <div class="button__holder pt-5">
                          <router-link to="/signup" class="card__btn">Choose Plan</router-link>
@@ -77,7 +76,7 @@ export default {
 <style lang="scss" scoped>
 @import '../assets/styles/_colors';
 .pricing{
-    padding: 5rem 0;
+    padding: 7rem 0;
     background: #f8f9fc;
     .text{
         h2{

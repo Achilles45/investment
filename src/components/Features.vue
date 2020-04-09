@@ -24,9 +24,7 @@
                   <h4>There is so much you can do with one account</h4>
                   <hr>
                   <br>
-                  <p>1.&nbsp;&nbsp;  Access to multiple asset classes including stocks, bonds, bills and unit trusts</p>
-                  <p>2.&nbsp;&nbsp;  Multiple deposit and withdrawal options</p>
-                  <p>3.&nbsp;&nbsp;  Real time tracking of your budget</p>
+                  <p>1.&nbsp;&nbsp;  We help provide access to high returns and safe investments in agriculture, cryptocurrencies, real estate and others.</p>
               </div>
           </div>
             <!--Row for the content of security -->
@@ -46,7 +44,7 @@
             <!--Row for the content of safety -->
           <div v-if="safety" class="row pt-5">
               <div class="col-md-4">
-                  <img src="../assets/images/safe.png" class="img-fluid" alt="">
+                  <img src="../assets/images/money.png" class="img-fluid" alt="">
               </div>
               <div class="col-md-2"></div>
               <div class="col-md-5 pt-5 content">
@@ -66,20 +64,20 @@
                   <h4>Real time support</h4>
                   <hr>
                   <br>
-                  <p>Contact VueFinance's friendly customer service consultants via our real time one on one chat. We also provide a comprehensive help section.</p>
+                  <p>Contact Funbile's friendly customer service consultants via our real time one on one chat. We also provide a comprehensive help section.</p>
               </div>
           </div>
            <!--Row for the content of Speed -->
           <div v-if="speed" class="row pt-5">
               <div class="col-md-4">
-                  <img src="../assets/images/fast.png" class="img-fluid" alt="">
+                  <img src="../assets/images/simple.png" class="img-fluid" alt="">
               </div>
               <div class="col-md-2"></div>
               <div class="col-md-5 pt-5 content">
                   <h4>Register in minutes and start investing today!</h4>
                   <hr>
                   <br>
-                  <p>1.&nbsp;&nbsp; Open a VueFinance account right on your phone or your laptop</p>
+                  <p>1.&nbsp;&nbsp; Open an account right on your phone or your laptop</p>
                   <p>1.&nbsp;&nbsp; Select an investment package</p>
                   <p>2.&nbsp;&nbsp; Make payment either through bitcoin to our wallet or through direct bank transfer</p>
                   <p>2.&nbsp;&nbsp; Wait for confirmation through app notification or email</p>
@@ -148,7 +146,7 @@ methods:{
 @import '../assets/styles/colors';
 .features{
     background: $primary-color;
-    padding: 4rem 0;
+    padding: 7rem 0;
     color:#fff;
     .heading{
         h2{

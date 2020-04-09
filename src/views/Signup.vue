@@ -2,7 +2,7 @@
   <div class="signup">
       <div class="container">
           <div class="logo">
-                <router-link to="/" class="logo"><h2><i class="fa fa-cubes"></i> Investax</h2></router-link>
+                <router-link to="/" class="logo"><h2><i class="fa fa-cubes"></i> Home</h2></router-link>
           </div>
           <div class="row content">
               <div class="col-md-6">
@@ -38,14 +38,19 @@
                      <div class="form-group">
                          <select class="form-control" id="inlineFormCustomSelect" v-model="plan">
                              <option selected>Select Investment Plan</option>
-                             <option value="20,000">&#8358;20,000.00</option>
-                             <option value="30,000">&#8358;30,000.00</option>
-                             <option value="50,000">&#8358;50,000.00</option>
-                             <option value="100,000">&#8358;100,000.00</option>
-                             <option value="120,000">&#8358;120,000.00</option>
-                             <option value="150,000">&#8358;150,000.00</option>
-                             <option value="180,000">&#8358;180,000.00</option>
-                             <option value="200,000">&#8358;200,000.00</option>
+                            <option value="30,000">&#8358;30,000 to &#8358;45,000</option>
+                            <option value="40,000">&#8358;40,000 to &#8358;60,000</option>
+                            <option value="50,000">&#8358;50,000 to &#8358;75,000</option>
+                            <option value="60,000">&#8358;60,000 to &#8358;90,000</option>
+                            <option value="70,000">&#8358;70,000 to &#8358;105,000</option>
+                            <option value="80,000">&#8358;80,000 to &#8358;120,000</option>
+                            <option value="90,000">&#8358;90,000 to &#8358;135,000</option>
+                            <option value="100,000">&#8358;100,000 to &#8358;150,000</option>
+                            <option value="120,000">&#8358;120,000 to &#8358;180,000</option>
+                            <option value="200,000">&#8358;200,000 to &#8358;600,000</option>
+                            <option value="300,000">&#8358;300,000 to &#8358;900,000</option>
+                            <option value="4000,000">&#8358;400,000 to &#8358;1,200,000</option>
+                            <option value="5000,000">&#8358;5000,000 to &#8358;1,500,000</option>
                          </select>
                      </div>
                       <div class="form-group">
@@ -53,7 +58,7 @@
                      </div>
                      <div class="button__holder pt-3 d-flex justify-content-between">
                          <p>Got an account? <router-link to="/signin">Sign In</router-link></p>
-                         <button type="submit" class="signup__btn">Create My Account</button>
+                         <button type="submit" class="signup__btn">Create Account</button>
                      </div>
                   </form>
               </div>
@@ -186,6 +191,15 @@ methods:{
                 border-radius: 3px;
                 color: #fff;
             }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .content{
+        h1{
+            padding-bottom: 3 !important;
+            font-size: 2.2rem !important;
         }
     }
 }

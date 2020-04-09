@@ -3,7 +3,7 @@
       <div class="container">
           <div class="row">
               <div class="col-md-4 text">
-                  <h2>Why <br> Investax</h2>
+                  <h2>Why <br> Funbile</h2>
                   <p>We exist to provide everyone access to investment opportunities and to help you make you better investment decisions that suits your risk appetite, thus gaining financial freedom.</p>
                   <router-link to="/about" class="about__link">Learn more <i class="fas fa-long-arrow-alt-right 7x"></i></router-link>
               </div>
@@ -16,7 +16,7 @@
                          </div>
                           <img src="../assets/images/chart.svg" class="icons" alt="">
                           <h4>High Interest <br> Returns</h4>
-                          <p>Investax only present her customers with investment opportunities that are worth the risk and with high returns in all asset classes from FMCGs, real estate to cryptocurrencies.</p>
+                          <p>Funbile network investment only present her customers with investment opportunities that are worth the risk and with high returns in all asset classes from FMCGs, real estate to cryptocurrencies.</p>
                       </div>
                        <div class="card__content">
                            <div class="boder__images">
@@ -43,7 +43,7 @@ export default {
 @import '../assets/styles/colors';
 .intro{
     margin-top: 1rem;
-    padding: 6rem 0;
+    padding: 7rem 0;
     background: #f8f9fc;
         h2{
             font-weight: bolder;

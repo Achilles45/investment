@@ -4,7 +4,7 @@
           <div class="row">
               <div class="col-md-6 text">
                   <h1>Invest. Learn. Grow</h1>
-                  <p>Investax helps you access different safe and high yielding investment vehicles through crowdfunding, make better investment decisions and grow your finances from ny device</p>
+                  <p>Funbile network investment helps you access different safe and high yielding investment vehicles through crowdfunding, make better investment decisions and grow your finances from ny device</p>
                   <router-link to="/signup" class="hero__btn">Get Started  <i class="fas fa-long-arrow-alt-right 7x"></i></router-link>
               </div>
               <div class="col-md-6">

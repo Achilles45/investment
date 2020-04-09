@@ -154,7 +154,6 @@ export default {
            }else{
                //Give a success message to the user
                 this.success = 'Your request was sent successfully and will be processed within 24 hours'
-                this.removeAlert()
                 this.bank = ''
                 this.account_number = ''
                 this.date = ''

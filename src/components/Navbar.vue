@@ -2,7 +2,7 @@
    <div class="navbar__wrapper" id="navbar">
     <div class="navbar__content container d-flex justify-content-between align-items-center">
         <div class="navbar__brand pt-1">
-            <router-link to="/" class="logo"><h3><i class="fa fa-cubes"></i>&nbsp;Investax</h3></router-link>
+            <router-link to="/" class="logo"><img src="../assets/images/logo.png" class="logo-img" alt=""></router-link>
         </div>
         <ul class="d-flex justify-content-between pt-3 nav__links">
             <li><a href="#banner" class="link">Home</a></li>
@@ -74,8 +74,8 @@ export default {
 .navbar__wrapper{
     padding: .5rem 0;
     // background: red;
-    .img{
-        max-width: 100px;
+    .logo-img{
+        max-width: 240px;
         height:auto;
     }
     .logo{
@@ -114,6 +114,9 @@ export default {
     .navbar__toggler{
         display: none;
     }
+    .fa-bars{
+        color: $primary-color;
+    }
 }
 
 //Fix navigation
@@ -123,7 +126,7 @@ export default {
     width: 100%;
     z-index: 100;
     background: #fff;
-    padding: 1rem 0;
+    padding: .8rem 0;
     transition: all ease-in-out .5s;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.17);
 }
@@ -139,10 +142,10 @@ export default {
         flex-direction: column;
         position: absolute;
         left:0;
-        top: 10%;
+        top: 0;
         z-index: 100;
-        width: 60%;
-        height:100vh;
+        width: 70%;
+        height:100% !important;
         padding: 3rem 0;
         display: none !important;
         line-height: 5;

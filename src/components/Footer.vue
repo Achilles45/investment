@@ -53,10 +53,10 @@
           <div class="row">
               <div class="footer__bottom">
               <div class="col-12">
-                  <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, repellendus debitis. Sunt quaerat, molestias ducimus totam, fugiat hic pariatur natus modi dolorem, aperiam voluptate sed doloremque repudiandae recusandae assumenda consequuntur saepe labore laudantium deleniti dolore reprehenderit porro impedit ut. Numquam veritatis totam quae eum repudiandae, vero ex doloremque explicabo dignissimos fugiat exercitationem sunt officiis ab, libero fuga sequi in ut? Quidem optio exercitationem sapiente quod dicta impedit ratione quisquam eligendi? Dolorum explicabo ut iure corporis voluptate! Quae laborum illum ad quidem facilis fugiat assumenda? Dolorum officia delectus saepe, laboriosam temporibus perspiciatis sunt omnis</small><br>
+                  <small>Funbile Nethwork Investment Company is your company of choice when it comes to making investment effortlessly. We crowdfund investments and put these money into diverse investment portfolios ranging from crypocurrencies and forex trading, agriculture, oil and gas, import and export and others, creting value for our investors and jobs in the country where we do business. Our legal partners are working on the new legal terms and conditions. Need clarification, send a message on the live chat provided here...</small><br>
               </div><br>
               <div class="col-12 text-center">
-                  <small class="copy">Copyright &copy;2020 All rights reserved. VueFinance. RC:12121</small>
+                  <small class="copy">Copyright &copy;2020 All rights reserved. Funbile Investment Company Limited</small>
               </div>
           </div>
           </div>

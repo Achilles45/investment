@@ -39,28 +39,30 @@
                          <h5>&#8358;{{plan}}</h5>
                      </div>
                   </div>
-                    <div class="summary__card two">
+                    <!-- <div class="summary__card two">
                      <i class="fa fa-credit-card"></i>
                      <div class="content pl-4">
-                         <h6>Your unpaid balance</h6>
+                         <h6>Expected Returns</h6>
                          <h5>${{ unpaid }}</h5>
                      </div>
-                  </div>
+                  </div> -->
                     <div class="summary__card three">
                      <i class="fa fa-cubes"></i>
                      <div class="content pl-4">
-                         <h6>Present loan amount</h6>
-                         <h5>${{ loanWallet }}</h5>
+                         <h6>Invetment Lifecycle</h6>
+                         <p>Your capital and returns would be paid back after a minimum of 4 days after your payment has been confirmed.</p>
                      </div>
                   </div>
                    <div class="summary__card four">
                      <i class="fa fa-comments"></i>
                      <div class="content pl-4">
                          <h6>Need any support?</h6>
-                         <p>Please send a message in the contact section. Our customer support team will reach out to you in 24 hours.</p>
+                         <p>Please send a message using the livechat widget on the website. Our customer support team will reach out to you in less 24 hours.</p>
                      </div>
                   </div>
               </div>
+              <hr>
+              <p>Your investment lifecycle will only begin to count when you have been verified to have made payment. Please use the chat widget to contact customer support for the account details and after payment, you also send evidence of payment to the customer care manager so your account can be activated and your Invetment cycle begins to count.</p>
               </div>
             <!--End of Dashboard
             =========================-->
@@ -187,8 +189,13 @@ export default {
                 }
                 .four{
                     background: #251F68;
+                   
                 }
+                
         }
+         p{
+                        color: red;
+                    }
             //REQUEST FORM
             form{
                  box-shadow: 0px 6px 60px -7px rgba(69,77,89,0.15);

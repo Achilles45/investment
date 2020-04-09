@@ -2,7 +2,7 @@
   <div class="signup">
       <div class="container">
           <div class="logo">
-                <router-link to="/" class="logo"><h2><i class="fa fa-cubes"></i> VueFinance</h2></router-link>
+                <router-link to="/" class="logo"><h2><i class="fa fa-cubes"></i> Home</h2></router-link>
           </div>
           <div class="row content">
               <div class="col-md-6">
@@ -26,7 +26,7 @@
                     </div>
                      <div class="button__holder pt-3 d-flex justify-content-between">
                          <p>New user <router-link to="/signup">Create account</router-link></p>
-                         <button type="submit" class="signup__btn">Sign In</button>
+                         <button type="submit" class="signup__btn">Login</button>
                      </div>
                   </form>
               </div>
