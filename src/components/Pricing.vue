@@ -93,7 +93,7 @@ export default {
     }
     .card__wrapper{
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 30px;
         margin-top: 1.5rem;
         padding: 0 0rem;
@@ -133,7 +133,7 @@ export default {
         }
         .card1{
             .header{
-                background: $tertiary-color;
+                background: $primary-color;
                 color: #fff;
                 padding: 1rem 0;
                 border-radius: 4px;
@@ -163,7 +163,7 @@ export default {
         }
         .card3{
             .header{
-                background: $secondary-color;
+                background: $primary-color;
                 color: #fff;
                 padding: 1rem 0;
                 border-radius: 4px;
