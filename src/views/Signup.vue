@@ -37,7 +37,9 @@
                      </div>
                      <div class="form-group">
                          <select class="form-control" id="inlineFormCustomSelect" v-model="plan">
-                             <option selected>Select Investment Plan</option>
+                            <option selected>Select Investment Plan</option>
+                            <option value="10,000">&#8358;10,000 to &#8358;15,000</option>
+                            <option value="20,000">&#8358;20,000 to &#8358;30,000</option>
                             <option value="30,000">&#8358;30,000 to &#8358;45,000</option>
                             <option value="40,000">&#8358;40,000 to &#8358;60,000</option>
                             <option value="50,000">&#8358;50,000 to &#8358;75,000</option>
@@ -46,11 +48,12 @@
                             <option value="80,000">&#8358;80,000 to &#8358;120,000</option>
                             <option value="90,000">&#8358;90,000 to &#8358;135,000</option>
                             <option value="100,000">&#8358;100,000 to &#8358;150,000</option>
-                            <option value="120,000">&#8358;120,000 to &#8358;180,000</option>
-                            <option value="200,000">&#8358;200,000 to &#8358;600,000</option>
-                            <option value="300,000">&#8358;300,000 to &#8358;900,000</option>
-                            <option value="4000,000">&#8358;400,000 to &#8358;1,200,000</option>
-                            <option value="5000,000">&#8358;5000,000 to &#8358;1,500,000</option>
+                             <option value="50,000">&#8358;50,000 to &#8358;150,000 (Promo plan)</option>
+                             <option value="100,000">&#8358;100,000 to &#8358;300,000 (Promo plan)</option>
+                            <option value="200,000">&#8358;200,000 to &#8358;600,000 (Promo plan)</option>
+                            <option value="300,000">&#8358;300,000 to &#8358;900,000 (Promo plan)</option>
+                            <option value="4000,000">&#8358;400,000 to &#8358;1,200,000 (Promo plan)</option>
+                            <option value="5000,000">&#8358;500,000 to &#8358;1,500,000 (Promo plan)</option>
                          </select>
                      </div>
                       <div class="form-group">

@@ -50,13 +50,14 @@
                      <h4>PROMO PACKAGE</h4>
                  </div>
                  <div class="body">
-                      <h6><i class="fa fa-check-square"></i> &#8358;50,000 to &#8358;150,000</h6>
-                    <h6><i class="fa fa-check-square"></i> &#8358;100,000 to &#8358;300,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;200,000 to &#8358;600,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;300,000 to &#8358;900,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;400,000 to &#8358;1,200,000</h6>
-                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;500,000 to &#8358;1,500,000</h6>
-                    <small>Kindly note your investment cycle starts counting only when we have confirmed your payment nd you can cash out in 24 hours. Terms and conditions apply</small><br>
+                      <h6><i class="fa fa-check-square"></i> &#8358;50,000 to &#8358;150,000 (Promo package)</h6>
+                    <h6><i class="fa fa-check-square"></i> &#8358;100,000 to &#8358;300,000 (Promo package)</h6>
+                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;200,000 to &#8358;600,000 (Promo package)</h6>
+                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;300,000 to &#8358;900,000 (Promo package)</h6>
+                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;400,000 to &#8358;1,200,000 (Promo package)</h6>
+                    <h6 class="pb-2"><i class="fa fa-check-square"></i> &#8358;500,000 to &#8358;1,500,000 (Promo package)</h6>
+                    <h6>And others ....</h6>
+                    <small>Kindly note your investment cycle starts counting only when we have confirmed your payment and you can cash out in 24 hours. Terms and conditions apply</small><br>
                   <div class="button__holder pt-5">
                          <router-link to="/signup" class="card__btn">Choose Plan</router-link>
                     </div>
@@ -95,6 +96,7 @@ export default {
         grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
         grid-gap: 30px;
         margin-top: 1.5rem;
+        padding: 0 0rem;
         .card__content{
             background: #fff;
             border-radius: 4px;

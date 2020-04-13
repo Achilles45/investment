@@ -37,15 +37,15 @@
                       <div class="first d-flex">
                           <i class="fa fa-envelope"></i>
                           <div class="content">
-                              <p class="pl-4">funbileinvestment@gmail.com</p>
+                              <p class="pl-4 email">funbilenetworkinvestmentcompany@gmail.com</p>
                           </div>
                       </div>
-                       <div class="first d-flex">
+                       <!-- <div class="first d-flex">
                           <i class="fa fa-phone"></i>
                           <div class="content">
                               <p class="pl-4">+234-8106-583-308</p>
                           </div>
-                      </div>
+                      </div> -->
                   </div>
               </div>
           </div><br>
@@ -111,5 +111,8 @@ footer{
             text-align: center !important;
         }
     }
+}
+.email{
+    font-size: .82rem;
 }
 </style>
